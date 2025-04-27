@@ -4,13 +4,13 @@ Project Overview
 LifeCare is a digital solution designed to help refugees and undocumented immigrants access healthcare services while protecting their privacy. The web-based prototype demonstrates the user flow from login to successful appointment booking through a series of 9 screens.
 Files Structure
 lifecare-prototype/
-├── index.html          # Home page
-├── overview.html       # Project overview page
-├── process.html        # Design process page
-├── prototype.html      # Interactive prototype showcase
-├── evaluation.html     # User testing and evaluation
-├── conclusion.html     # Project conclusion
-├── styles.css          # CSS styles for all pages
+index.html          # Home page
+overview.html       # Project overview page
+process.html        # Design process page
+prototype.html      # Interactive prototype showcase
+evaluation.html     # User testing and evaluation
+conclusion.html     # Project conclusion
+styles.css          # CSS styles for all pages
 
 Prototype Features
 The prototype demonstrates three key functionalities:
