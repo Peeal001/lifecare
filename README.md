@@ -32,8 +32,10 @@ Appointment Booking - Select date and time for your visit
 Confirmation - Review and confirm appointment details
 Congratulations - Success screen with next steps
 
+
 Key Design Considerations
 
 Privacy Protection: Minimal personal information collection with clear data policies
 Language Support: Multiple languages with clear iconography to overcome language barriers
 Simplified Navigation: Step-by-step flow with minimal complexity
+
