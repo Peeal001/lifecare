@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation - LifeCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Life<span>Care</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="overview.html">Project Overview</a></li>
+                    <li><a href="process.html">Design Process</a></li>
+                    <li><a href="prototype.html">Prototype</a></li>
+                    <li><a href="evaluation.html">Evaluation</a></li>
+                    <li><a href="conclusion.html">Conclusion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Heuristic Evaluation -->
+    <section class="evaluation">
+        <div class="container">
+            <div class="section-title">
+                <h2>Heuristic Evaluation</h2>
+                <p>Improving our design through usability testing</p>
+            </div>
+            <p>We conducted a heuristic evaluation of our high-fidelity prototype with the help of our peer team "flouri$h". They reviewed our interface using Nielsen's 10 Usability Heuristics and identified several usability issues. We categorized these issues by heuristic and severity and made targeted design improvements based on their feedback.</p>
+            
+            <table class="evaluation-table">
+                <thead>
+                    <tr>
+                        <th>Heuristic</th>
+                        <th>Issue</th>
+                        <th>Severity</th>
+                        <th>Fix Implemented</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>H5: Error Prevention</strong></td>
+                        <td>Assuming that users must fill out the same information for every appointment. Could be improved with a profile system that auto-fills forms.</td>
+                        <td>2</td>
+                        <td>Not addressed (not prioritized)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H8: Aesthetic Design</strong></td>
+                        <td>Initial designs lacked color and visual appeal in early prototypes.</td>
+                        <td>1</td>
+                        <td>Enhanced hi-fi with color, icons, and improved layout</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H10: Help & Documentation</strong></td>
+                        <td>System could benefit from additional guidance for target users.</td>
+                        <td>2</td>
+                        <td>Added video tutorial from searching clinics to making appointments</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div style="margin-top: 40px;">
+                <h3>User Testing</h3>
+                <p>In addition to the heuristic evaluation, we conducted user testing with five participants who matched our target demographic. Key findings included:</p>
+                
+                <ul style="list-style-type: disc; margin: 20px 0 20px 40px;">
+                    <li>Users appreciated the simplified language and intuitive navigation</li>
+                    <li>Some confusion around what documents might be needed for appointments</li>
+                    <li>Strong positive reaction to privacy protections</li>
+                    <li>Request for additional language options beyond those initially provided</li>
+                </ul>
+                
+                <p>These insights led to further refinements of our prototype, particularly around transparency about documentation requirements and expanding language options.</p>
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px;">
+                <a href="conclusion.html" class="btn btn-primary">Next: Conclusion</a>
+            </div>
+        </div>
+    </section>
+        <!-- Footer -->
+         <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>About LifeCare</h3>
+                        <p>A digital solution designed to help refugees and undocumented immigrants access healthcare services while protecting their privacy.</p>
+                        <p>Developed as part of HCI coursework at Syracuse University</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Team Members</h3>
+                        <p><strong>Md Peeal Islam</strong> - Researcher & Designer</p>
+                        <p><strong>Runnan Li</strong> - Researcher & Designer</p>
+                        <p>Collaborators: flouri$h team</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Project Details</h3>
+                        <p><i class="fas fa-calendar"></i> Spring 2025</p>
+                        <p><i class="fas fa-tools"></i> Tools: MockFlow</p>
+                        <p><i class="fas fa-book"></i> Course: Human-Computer Interaction</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 LifeCare Project Team. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
